@@ -16,6 +16,9 @@
 		10320E34143A053C0040FF51 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10320E32143A053C0040FF51 /* MainWindow.xib */; };
 		10320E37143A053C0040FF51 /* pdf_tutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10320E36143A053C0040FF51 /* pdf_tutorialViewController.m */; };
 		10320E3A143A053C0040FF51 /* pdf_tutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10320E38143A053C0040FF51 /* pdf_tutorialViewController.xib */; };
+		10320E4E143A17AB0040FF51 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10320E4D143A17AB0040FF51 /* QuickLook.framework */; };
+		10320E50143A17B80040FF51 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10320E4F143A17B70040FF51 /* CoreText.framework */; };
+		10320E52143A17C70040FF51 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10320E51143A17C70040FF51 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,19 @@
 		10320E20143A053C0040FF51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		10320E22143A053C0040FF51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10320E24143A053C0040FF51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		10320E28143A053C0040FF51 /* pdf-tutorial-Info.plist */ = {isa = PBXFileReference; path = "pdf-tutorial-Info.plist"; sourceTree = "<group>"; };
+		10320E28143A053C0040FF51 /* pdf-tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pdf-tutorial-Info.plist"; sourceTree = "<group>"; };
 		10320E2A143A053C0040FF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10320E2C143A053C0040FF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10320E2E143A053C0040FF51 /* pdf-tutorial-Prefix.pch */ = {isa = PBXFileReference; path = "pdf-tutorial-Prefix.pch"; sourceTree = "<group>"; };
-		10320E2F143A053C0040FF51 /* pdf_tutorialAppDelegate.h */ = {isa = PBXFileReference; path = pdf_tutorialAppDelegate.h; sourceTree = "<group>"; };
+		10320E2E143A053C0040FF51 /* pdf-tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pdf-tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		10320E2F143A053C0040FF51 /* pdf_tutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pdf_tutorialAppDelegate.h; sourceTree = "<group>"; };
 		10320E30143A053C0040FF51 /* pdf_tutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdf_tutorialAppDelegate.m; sourceTree = "<group>"; };
 		10320E33143A053C0040FF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		10320E35143A053C0040FF51 /* pdf_tutorialViewController.h */ = {isa = PBXFileReference; path = pdf_tutorialViewController.h; sourceTree = "<group>"; };
+		10320E35143A053C0040FF51 /* pdf_tutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pdf_tutorialViewController.h; sourceTree = "<group>"; };
 		10320E36143A053C0040FF51 /* pdf_tutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdf_tutorialViewController.m; sourceTree = "<group>"; };
 		10320E39143A053C0040FF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pdf_tutorialViewController.xib; sourceTree = "<group>"; };
+		10320E4D143A17AB0040FF51 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		10320E4F143A17B70040FF51 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		10320E51143A17C70040FF51 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10320E52143A17C70040FF51 /* MessageUI.framework in Frameworks */,
+				10320E50143A17B80040FF51 /* CoreText.framework in Frameworks */,
+				10320E4E143A17AB0040FF51 /* QuickLook.framework in Frameworks */,
 				10320E21143A053C0040FF51 /* UIKit.framework in Frameworks */,
 				10320E23143A053C0040FF51 /* Foundation.framework in Frameworks */,
 				10320E25143A053C0040FF51 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +78,9 @@
 		10320E1F143A053C0040FF51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10320E51143A17C70040FF51 /* MessageUI.framework */,
+				10320E4F143A17B70040FF51 /* CoreText.framework */,
+				10320E4D143A17AB0040FF51 /* QuickLook.framework */,
 				10320E20143A053C0040FF51 /* UIKit.framework */,
 				10320E22143A053C0040FF51 /* Foundation.framework */,
 				10320E24143A053C0040FF51 /* CoreGraphics.framework */,
@@ -246,6 +258,10 @@
 		10320E3E143A053C0040FF51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdf-tutorial/pdf-tutorial-Prefix.pch";
 				INFOPLIST_FILE = "pdf-tutorial/pdf-tutorial-Info.plist";
@@ -257,6 +273,10 @@
 		10320E3F143A053C0040FF51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdf-tutorial/pdf-tutorial-Prefix.pch";
 				INFOPLIST_FILE = "pdf-tutorial/pdf-tutorial-Info.plist";
